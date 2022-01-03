@@ -1,0 +1,64 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#navBar {
+    height: 15%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo {
+    margin-right: 30px;
+}
+
+#navBarLeft {
+    flex: 4;
+    display: flex;
+    align-items: center;
+}
+
+#navBarRight {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-right: 40px;
+}
+
+.aTagNoBlue {
+    text-decoration: none;
+    color: black;
+    font-size: 18pt;
+}
+
+#container {
+    width: 60%;
+    height: 800px;
+    margin: auto;
+    /* background-color: #8D918D; */
+}
+
+#insideBox {
+    display: flex;
+    margin-top: 20px;
+}
+
+#insideBox p {
+    font-size: 18pt;
+    padding-left: 20px;
+}
+
+#knifeBox {
+    width: 300px;
+    height: 300px;
+}
+
+#box2 {
+    margin-top: 35px;
+}
+
+#box3 {
+    margin-top: 35px;
+}
