@@ -1,0 +1,111 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#navBar {
+    height: 15%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo {
+    margin-right: 30px;
+    width: 250px;
+    height: 250px;
+}
+
+#navBarLeft {
+    flex: 4;
+    display: flex;
+    align-items: center;
+}
+
+#navBarLeft {
+    font-size: 24pt;
+}
+
+#navBarRight {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-right: 40px;
+}
+
+.aTagNoBlue {
+    text-decoration: none;
+    color: black;
+    font-size: 18pt;
+}
+
+#carousel {
+    position: relative;
+    height: 600px;
+    width: 80%;
+    margin: auto;
+}
+
+#carouselContainer {
+    height: 100%;
+    width: 100%;
+}
+
+#carouselTrack {
+    padding: 0;
+    list-style: none;
+    margin: 0;
+    position: relative;
+    height: 100%;
+    transition: transform 250ms ease-in;
+}
+
+.carouselSlide {
+    position: absolute;
+    right: 400px;
+    width: 60%;
+    height: 600px;
+    margin: auto;
+    text-align: center;
+}
+
+.carouselImage {
+    width: 300px;
+    height: 300px;
+    margin: auto;
+}
+
+.rightArrow {
+    height: 50px;
+    width: 50px;
+    right: -40px;
+    /* position: absolute;
+    top: 400px;
+    right: 550px; */
+}
+
+.carouselButton {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+    height: 50px;
+    width: 50px;
+}
+
+.leftArrow {
+    transform: rotateZ(180deg);
+    height: 50px;
+    width: 50px;
+    left: -40px;
+    /* position: absolute;
+    top: 400px;
+    left: 550px; */
+}
+
+.carouselButton img {
+    width: 50px;
+    height: 50px;
+}
